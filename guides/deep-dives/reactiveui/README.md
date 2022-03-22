@@ -8,7 +8,7 @@ dotnet add package Avalonia.ReactiveUI
 
 `Avalonia.ReactiveUI` includes Avalonia-specific helpers to handle [view model-based routing](https://reactiveui.net/docs/handbook/routing), [view activation](https://reactiveui.net/docs/handbook/when-activated/) and [scheduling](https://reactiveui.net/docs/handbook/scheduling/). Be sure to add `.UseReactiveUI()` to your `AppBuilder` before you use any of ReactiveUI's APIs in your application.
 
-```text
+```csharp
 public static class Program
 {
     public static void Main(string[] args) => BuildAvaloniaApp().Start<MainWindow>();
